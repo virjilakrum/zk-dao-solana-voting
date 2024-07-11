@@ -4,7 +4,7 @@ use anchor_lang::solana_program::system_program;
 declare_id!("DnfKVNRvbJUuVpwXx3Cfn2jawHkCzwuEtV6gedbw4cE4");
 
 #[program]
-pub mod dao_voting {
+pub mod zk_dao {
     use super::*;
 
     pub fn create_proposal(ctx: Context<CreateProposal>, title: String) -> Result<()> {
